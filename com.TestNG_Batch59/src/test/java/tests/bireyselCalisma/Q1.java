@@ -42,11 +42,12 @@ public class Q1 {
 // 8-Registrant name kismina telephone yaziniz
         WebElement registrantNameElementi=Driver.getDriver().findElement(By.xpath("//input[@class='gr-text gr-text--sm gr-text--tertiary gr-find-stripe__name']"));
         registrantNameElementi.sendKeys("telephone");
-
+Thread.sleep(2000);
 // 9-Select a registry or gift list type Birthday Gift List'i seciniz
-        WebElement registryOrGiftElementi=Driver.getDriver().findElement(By.xpath("//span[@class='a-button-text a-declarative']"));
-        Select select =new Select(registryOrGiftElementi);
+
+        Select select =new Select(amazonPage.selectButtonElementi);
         select.selectByVisibleText("Birthday Gift List");
+        amazonPage.searchButtonElementi.click();
 
 
 //10- "Sorry, no Gift Lists match your search." yazsinin ciktigini dogrulayiniz
