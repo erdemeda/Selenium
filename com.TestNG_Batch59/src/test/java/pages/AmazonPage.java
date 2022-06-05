@@ -32,7 +32,7 @@ public class AmazonPage {
     @FindBy(xpath = "(//a[@class='nav-a  '])[3]")
     public WebElement registryButtonElementi;
 
-    @FindBy(xpath = "//span[@class='a-dropdown-prompt']")
+    @FindBy(xpath = "//span[@class='a-button-text a-declarative']")
     public WebElement selectButtonElementi;
 
     @FindBy(xpath = "//button[@class='gr-btn gr-btn--rounded gr-text gr-find-stripe__cta gr-find-stripe__submit']")

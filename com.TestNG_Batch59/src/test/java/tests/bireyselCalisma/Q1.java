@@ -19,7 +19,7 @@ public class Q1 {
         AmazonPage amazonPage=new AmazonPage();
         Driver.getDriver().get(ConfigReader.getProperty("amazonUrl"));
 
-// 2-sag ust taraftaki all secenegine tiklayiniz
+// 2-sol ust taraftaki all secenegine tiklayiniz
         amazonPage.allButtonElementi.click();
 
 // 3-Digital Content & Devices yazisinin gorunur oldugundan emin olunuz
@@ -42,16 +42,33 @@ public class Q1 {
 // 8-Registrant name kismina telephone yaziniz
         WebElement registrantNameElementi=Driver.getDriver().findElement(By.xpath("//input[@class='gr-text gr-text--sm gr-text--tertiary gr-find-stripe__name']"));
         registrantNameElementi.sendKeys("telephone");
-Thread.sleep(2000);
-// 9-Select a registry or gift list type Birthday Gift List'i seciniz
+        Thread.sleep(2000);
 
+// 9-Select a registry or gift list type Birthday Gift List'i seciniz
+        amazonPage.selectButtonElementi.click();
+        WebElement birthdayGiftElementi=Driver.getDriver().findElement(By.xpath("//a[@id='dropdown1_2']"));
+        birthdayGiftElementi.click();
+        amazonPage.searchButtonElementi.click();
+
+
+/*
         Select select =new Select(amazonPage.selectButtonElementi);
         select.selectByVisibleText("Birthday Gift List");
         amazonPage.searchButtonElementi.click();
 
+ */
+
 
 //10- "Sorry, no Gift Lists match your search." yazsinin ciktigini dogrulayiniz
+        WebElement sorryYaziElementi=Driver.getDriver().findElement(By.xpath("//div[@class='gr-search-no-result-container']"));
+        Assert.assertTrue(sorryYaziElementi.isDisplayed());
+        System.out.println(sorryYaziElementi.getText());
+
 //11-amazonu kapatin
+        Driver.closeDriver();
+
+
+
 
 
     }

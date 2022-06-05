@@ -29,14 +29,14 @@ public class Q2 {
         WebElement aFwElementi=Driver.getDriver().findElement(By.xpath("(//div[@class='icon'])[3]"));
         aFwElementi.click();
 
-
+        Thread.sleep(2000);
         // 4. Sirasiyla 'Browser window' ve 'New tab' butonlarini secerek
         WebElement browserWindowElementi=Driver.getDriver().findElement(By.xpath("(//span[@class='text'])[11]"));
         browserWindowElementi.click();
-
+        Thread.sleep(2000);
         WebElement newTabElementi=Driver.getDriver().findElement(By.xpath("//button[@id='tabButton']"));
         newTabElementi.click();
-
+        Thread.sleep(2000);
         // 'This is a sample page'yazisinin ciktigini dogrulayiniz.
         WebElement samplePageYaziElementi=Driver.getDriver().findElement(By.xpath
                 ("//*[text()='This is a sample page']"));
