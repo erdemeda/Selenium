@@ -12,7 +12,7 @@ public class GuruPage {
         PageFactory.initElements(Driver.getDriver(),this);
     }
 
-    @FindBy(xpath = "//tr//th")
+    @FindBy(xpath = "//thead//tr//th")
     public List<WebElement> baslikListesi;
 
 

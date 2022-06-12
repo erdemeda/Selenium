@@ -9,7 +9,7 @@ Feature: US1002 Kullanici ortak adimlari Background ile calistirir
     Then sonuclarin Nutella icerdigini test eder
     And sayfayi kapatir
 
-
+@pr2
   Scenario: TC05 amazon java arama
     And kullanici Java icin arama yapar
     Then sonuclarin Java icerdigini test eder

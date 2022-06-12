@@ -1,12 +1,90 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="1" time="22.584">
-    <testcase classname="US1003 kullanici parametre kullanarak arama yapabilmeli" name="TC06 kullanici parametre ile amazonda arama yapabilmeli" time="22.109">
+<testsuite errors="0" failures="1" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="6" time="0.815">
+    <testcase classname="kullanici automationexercise sayfasinda islemler yapar" name="TestCase01 kullanici kaydedilir" time="0.162">
         <system-out>
-            <![CDATA[Given kullanici amazon anasayfasinda........................................passed
-And kullanici "Java" icin arama yapar.......................................passed
-And sonuclarin "Java" icerdigini test eder..................................passed
-Then sayfayi kapatir........................................................passed
+            <![CDATA[Given kullanici "autoExerciseUrl" anasayfasinda.............................passed
+And anasayfanin gorunur oldugu dogrulanir...................................passed
+And Signup Login butonuna tiklar............................................passed
+And New User Signup yazisinin gorunur oldugunu test eder....................passed
+And gecerli name ve email address girer.....................................passed
+And Signup butonuna tiklar..................................................passed
+And ENTER ACCOUNT INFORMATION yazisinin gorunur oldugunu test eder..........passed
+And ilk kisim ayrintilari doldurur..........................................passed
+And Sign up for our newsletter onay butonunu tiklar.........................passed
+And Receive special offers from our partners onay butonunu tiklar...........passed
+And ikinci kisim ayrintilari doldurur.......................................passed
+And Create Account butonunu tiklar..........................................passed
+And ACCOUNT CREATED yazisinin gorunur oldugunu test eder....................passed
+And Continiue butonunu tiklar...............................................passed
+And Logged in as username yazisinin gorunur oldugunu test eder..............passed
+Then Delete Account butonunu tiklar.........................................passed
 ]]>
         </system-out>
+    </testcase>
+    <testcase classname="kullanici automationexercise sayfasinda islemler yapar" name="TestCase02 kullanici dogru email ve sifre ile giris yapar" time="0.003">
+        <system-out>
+            <![CDATA[Given kullanici "autoExerciseUrl" anasayfasinda.............................passed
+And anasayfanin gorunur oldugu dogrulanir...................................passed
+And Signup Login butonuna tiklar............................................passed
+And Login to your account yazisinin gorunur oldugunu test eder..............passed
+And dogru email ve password girer...........................................passed
+And login butonuna tiklar...................................................passed
+And Logged in as username yazisinin gorunur oldugunu test eder..............passed
+And Delete Account butonunu tiklar..........................................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="kullanici automationexercise sayfasinda islemler yapar" name="TestCase03 kullanici yanlis email ve sifre ile giris yapar" time="0.001">
+        <system-out>
+            <![CDATA[Given kullanici "autoExerciseUrl" anasayfasinda.............................passed
+And anasayfanin gorunur oldugu dogrulanir...................................passed
+And Signup Login butonuna tiklar............................................passed
+And Login to your account yazisinin gorunur oldugunu test eder..............passed
+And yanlis email ve yanlis password girer...................................passed
+And login butonuna tiklar...................................................passed
+And Your email or password is incorrect yazisinin gorunur oldugunu test eder.passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="kullanici automationexercise sayfasinda islemler yapar" name="TestCase04 kullanici cikis yapar" time="0.002">
+        <system-out>
+            <![CDATA[Given kullanici "autoExerciseUrl" anasayfasinda.............................passed
+And anasayfanin gorunur oldugu dogrulanir...................................passed
+And Signup Login butonuna tiklar............................................passed
+And Login to your account yazisinin gorunur oldugunu test eder..............passed
+And dogru email ve password girer...........................................passed
+And login butonuna tiklar...................................................passed
+And Logged in as username yazisinin gorunur oldugunu test eder..............passed
+And Logout butonuna tiklar..................................................passed
+And kullanicinin login sayfasina yonlendirildigini test eder................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="kullanici automationexercise sayfasinda islemler yapar" name="TestCase05 kullanici mevcut email ile kaydedilir" time="0.002">
+        <system-out>
+            <![CDATA[Given kullanici "autoExerciseUrl" anasayfasinda.............................passed
+And anasayfanin gorunur oldugu dogrulanir...................................passed
+And Signup Login butonuna tiklar............................................passed
+Then New User Signup yazisinin gorunur oldugunu test eder...................passed
+And gecerli name ve email address girer.....................................passed
+And Signup butonuna tiklar..................................................passed
+And Email Address already exist yazisinin gorunur oldugunu test eder........passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="kullanici automationexercise sayfasinda islemler yapar" name="TestCase06 kullanici Contact Us formunu doldurur" time="0.007">
+        <failure message="The scenario has pending or undefined step(s)" type="java.lang.Exception">
+            <![CDATA[Given kullanici "autoExerciseUrl" anasayfasinda.............................passed
+And anasayfanin gorunur oldugu dogrulanir...................................passed
+And Contact Us butonuna tiklar..............................................undefined
+And GET IN TOUCH yazisinin gorunur oldugunu test eder.......................skipped
+Then name email subject ve message bilgileri girer..........................skipped
+And dosya yuklemesi yapar...................................................skipped
+And Submit butonuna tiklar..................................................skipped
+And OK butonuna tiklar......................................................skipped
+And Success! Your details have been submitted successfully yazisinin gorunur oldugunu test eder.skipped
+And Home butonuna tiklar ve basarili bir sekilde gecis yapildigini test eder.skipped
+]]>
+        </failure>
     </testcase>
 </testsuite>

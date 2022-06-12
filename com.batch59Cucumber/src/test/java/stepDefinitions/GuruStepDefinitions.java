@@ -17,6 +17,9 @@ GuruPage guruPage=new GuruPage();
     public void sutunundaki_tum_degerleri_yazdirir(String istenenSutun) {
 
         List<WebElement> tabloBaslikListesi= guruPage.baslikListesi;
+        // listemiz webelementlerden olusuyor
+        // dolayisiyla bu webelementlerden hangisi
+        // istenen sutun basligini tasiyor bilemeyiz
 
         int istenenBaslikIndexi=-3;
         for (int i = 0; i < tabloBaslikListesi.size(); i++) {
@@ -25,14 +28,18 @@ GuruPage guruPage=new GuruPage();
                 break;
             }
         }
-        if (istenenBaslikIndexi!=-3){
+        // for loop ile tum sutun basliklarini bana verilen istenenSutun degeri ile karsilastirdim
+        // loop biittiginde basligin bulunup bulunmadigini kontrol etmek ve
+        // bulundu ise yoluma devam etmek istiyorum
+
+        if (istenenBaslikIndexi!=-3){ // baslik bulundu
             List<WebElement> istenenSutundakiElementler= Driver.getDriver().findElements(By.xpath("//tbody//tr//td["+istenenBaslikIndexi+"]"));
             for (WebElement each:istenenSutundakiElementler
             ) {
                 System.out.println(each.getText());
             }
 
-        }else{
+        }else{ //baslik bulunamadi
             System.out.println("istenen baslik bulunamadi");
         }
 

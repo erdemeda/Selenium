@@ -1,5 +1,6 @@
 package runners;
 
+
 import io.cucumber.junit.Cucumber;
 import io.cucumber.junit.CucumberOptions;
 import org.junit.runner.RunWith;
@@ -12,12 +13,14 @@ import org.junit.runner.RunWith;
         },
         features = "src/test/resources/features",
         glue="stepDefinitions",
-        tags= "@parametre",
-        dryRun = false
+        tags= "@autex",
+        dryRun = true
+
 )
 
 public class TestRunner {
-    /*
+
+     /*
     Bir framework'de bir tek Runner class'i yeterli olabilir
     Runner class'inda class body'sinde hic bir sey olmaz
     Runner class'imizi onemli yapan 2 adet annotaion vardir
