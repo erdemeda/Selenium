@@ -1,4 +1,4 @@
-<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+
 <!-- Bir xml dosyasi ile projemizden istedigimiz testleri, package'testleri
   class'lari veya test methodlarini calistirabiliriz. bunun icin yapmamiz
   gereken suit'den baslayip test hiyerarsisine uygun olarak calisacak

@@ -3,12 +3,13 @@ stepDefinitions\AmazonStepDefinitions.class
 stepDefinitions\DataTablesStepDefinitions.class
 pages\GuruPage.class
 pages\BrcPage.class
-stepDefinitions\BrcStepDefinitions.class
 pages\AutomationPage.class
+stepDefinitions\AutoExerciseStepDefinitions.class
 pages\HerokuappPage.class
 pages\AmazonPage.class
 runners\TestRunner.class
 utilities\Driver.class
+pages\AutoExercisePage.class
 pages\HMCPage.class
 stepDefinitions\Hooks.class
 runners\TestRunner2.class

@@ -92,7 +92,7 @@ public class Q2 {
         workbook.write(fos);
 
         // n11 sayfasini kapatin
-      //  driver.close();
+        driver.close();
 
     }
 }
