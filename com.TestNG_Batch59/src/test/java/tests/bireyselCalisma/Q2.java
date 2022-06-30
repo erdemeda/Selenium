@@ -19,6 +19,7 @@ public class Q2 {
         DemoqaPage demoqaPage=new DemoqaPage();
         Driver.getDriver().get(ConfigReader.getProperty("demoqaUrl"));
 
+
         //2. Alerts, Frame & windows elementini tiklayiniz.
         Actions actions=new Actions(Driver.getDriver());
         actions.sendKeys(Keys.PAGE_DOWN).perform();
