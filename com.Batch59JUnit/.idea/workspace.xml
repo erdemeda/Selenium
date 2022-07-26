@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="3e261389-e542-4b5b-8951-56f3cd36d089" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/src/resources/Milebaslayanlar.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/resources/Milebaslayanlar.xlsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/automationexercise/TestCase23.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/automationexercise/TestCase23.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/bireyselCalismalar/Q2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/bireyselCalismalar/Q2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/day07_assertions/C06_DropDown.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/day07_assertions/C06_DropDown.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/day12_senkronizasyon/ActionsClassHomeWork.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/day13_cookies_webTables/day12_senkronizasyon/ActionsClassHomeWork.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/day12_senkronizasyon/C01_ExplicitlyWait.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/day13_cookies_webTables/day12_senkronizasyon/C01_ExplicitlyWait.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/day12_senkronizasyon/C02_ExplicitlyWait.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/day13_cookies_webTables/day12_senkronizasyon/C02_ExplicitlyWait.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/day12_senkronizasyon/IframeHomeWork.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/day13_cookies_webTables/day12_senkronizasyon/IframeHomeWork.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/automationexercise/TestCase23.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/automationexercise/TestCase23.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/bireyselCalismalar/Q2.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/bireyselCalismalar/Q2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/day07_assertions/C06_DropDown.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/day07_assertions/C06_DropDown.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/day12_senkronizasyon/ActionsClassHomeWork.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/day12_senkronizasyon/C01_ExplicitlyWait.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/day12_senkronizasyon/C02_ExplicitlyWait.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/day12_senkronizasyon/IframeHomeWork.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/practice/Q1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/practice/Q2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/practice/Q3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/practice/Q4_interview.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/practice/Q5.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/practice/Q6.class" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="297XfVLzOB4rDzJFy5FGSV078MQ" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/test/java/practice" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Administrator\Desktop\Eda\Eclipse_Calismalar\com.Batch59JUnit\src\test\java\practice" />
+      <recent name="C:\Users\Administrator\Desktop\Eda\Eclipse_Calismalar\com.Batch59JUnit\src\resources" />
+      <recent name="C:\Users\Administrator\Desktop\Eda\Eclipse_Calismalar\com.Batch59JUnit\src\test\java" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="bireyselCalismalar" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.TestCase12.test01">
+    <configuration name="C03_ReadExcel" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="com.Batch59JUnit" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="day14_excel.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="day14_excel" />
+      <option name="MAIN_CLASS_NAME" value="day14_excel.C03_ReadExcel" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Q1.test01" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="com.Batch59JUnit" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="bireyselCalismalar.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="bireyselCalismalar" />
+      <option name="MAIN_CLASS_NAME" value="bireyselCalismalar.Q1" />
+      <option name="METHOD_NAME" value="test01" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Q2.test01" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="com.Batch59JUnit" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="bireyselCalismalar.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="bireyselCalismalar" />
+      <option name="MAIN_CLASS_NAME" value="bireyselCalismalar.Q2" />
+      <option name="METHOD_NAME" value="test01" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestCase12.test01" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="com.Batch59JUnit" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="automationexercise.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="automationexercise" />
+      <option name="MAIN_CLASS_NAME" value="automationexercise.TestCase12" />
+      <option name="METHOD_NAME" value="test01" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestCase23.test01" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="com.Batch59JUnit" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="automationexercise.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="automationexercise" />
+      <option name="MAIN_CLASS_NAME" value="automationexercise.TestCase23" />
+      <option name="METHOD_NAME" value="test01" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.TestCase12.test01" />
+        <item itemvalue="JUnit.Q2.test01" />
+        <item itemvalue="JUnit.TestCase23.test01" />
+        <item itemvalue="JUnit.C03_ReadExcel" />
+        <item itemvalue="JUnit.Q1.test01" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="3e261389-e542-4b5b-8951-56f3cd36d089" name="Changes" comment="" />
+      <created>1652465212964</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1652465212964</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="XDebuggerManager">
+    <watches-manager>
+      <inline-watch fileUrl="file://$PROJECT_DIR$/src/test/java/day05_JUnit/Odev.java" line="18">
+        <watch expression="((Odev)this).driver" language="JAVA" custom="day05_JUnit.Odev" />
+      </inline-watch>
+    </watches-manager>
+  </component>
+</project>
